@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:7
 RUN yum update -y
 RUN yum -y install httpd
 COPY new.html /var/www/html/
