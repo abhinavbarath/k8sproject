@@ -27,5 +27,5 @@ spec:
     spec:
       containers:
       - name: hello
-        image: abhinav/newimage:latest
+        image: qxsf/newimage:latest
         imagePullPolicy: Always
